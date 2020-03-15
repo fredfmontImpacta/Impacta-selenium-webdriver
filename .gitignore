@@ -23,6 +23,16 @@ java/.idea/
 
 java/target/
 
+/java/.idea
+/java/.idea/*
+/java/target/classes/*
+/java/target/generated-sources/*
+/java/target/generated-test-sources/*
+/java/target/maven-archiver/*
+/java/target/maven-status/*
+/java/target/surefire-reports/*
+/java/target/test-classes/*
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
