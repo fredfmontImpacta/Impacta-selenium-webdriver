@@ -19,9 +19,6 @@
 *.rar
 
 .idea/
-java/.idea/
-
-java/target/
 
 /java/.idea
 /java/.idea/*

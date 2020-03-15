@@ -1,0 +1,3779 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1449851000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is in the Agapito Software testing page",
+            "match": {
+              "location": "ProcessosSteps.thatTheUserIsInTheAgapitoSoftwareTestingPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6791849100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.beforeScenario()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Add a new processo with success",
+        "description": "",
+        "id": "processos-page-crud;add-a-new-processo-with-success",
+        "after": [
+          {
+            "result": {
+              "duration": 666516200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 74229600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks in the Processos menu option",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheProcessosMenuOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1698614100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user clicks in the Novo Processo button",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheNovoProcessoButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 339388800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user fills the value \"1\" to the \"processo_vara\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_vara",
+                  "offset": 37
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74211900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user fills the value \"123\" to the \"processo_numero_processo\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_numero_processo",
+                  "offset": 39
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75885400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user fills the value \"Guarda\" to the \"processo_natureza\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Guarda",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_natureza",
+                  "offset": 42
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98093200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user fills the value \"Parte A x Parte B\" to the \"processo_partes\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Parte A x Parte B",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_partes",
+                  "offset": 53
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90589800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user fills the value \"14/03/2020\" to the \"processo_data_entrada\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "14/03/2020",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_data_entrada",
+                  "offset": 46
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91149000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user fills the value \"Agendado\" to the \"processo_status\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Agendado",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_status",
+                  "offset": 44
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69526800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user selects the option \"Sim\" int the Arbitramento field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sim",
+                  "offset": 29
+                }
+              ],
+              "location": "ProcessosSteps.theUserSelectsTheOptionIntTheArbitramentoField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78992400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user selects the option \"Não\" int the \"processo_urgente\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Não",
+                  "offset": 29
+                },
+                {
+                  "val": "processo_urgente",
+                  "offset": 43
+                }
+              ],
+              "location": "ProcessosSteps.theUserSelectsTheOptionIntTheField(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 599570700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user clicks in the \"btn-save\" in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-save",
+                  "offset": 24
+                }
+              ],
+              "location": "ProcessosSteps.theUserClicksInTheInTheProcessoPage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53693100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user should see the \"Processo foi criado com sucesso.\" message in the Mostrar Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Processo foi criado com sucesso.",
+                  "offset": 25
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheMessageInTheMostrarProcessoPage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 879764900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is in the Agapito Software testing page",
+            "match": {
+              "location": "ProcessosSteps.thatTheUserIsInTheAgapitoSoftwareTestingPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5307700600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.beforeScenario()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Add a new processo and see new processo from the main menu",
+        "description": "",
+        "id": "processos-page-crud;add-a-new-processo-and-see-new-processo-from-the-main-menu;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 614386300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 58749700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user clicks in the Processos menu option",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheProcessosMenuOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1615679200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user clicks in the Novo Processo button",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheNovoProcessoButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 281534900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user fills the value \"1\" to the \"processo_vara\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_vara",
+                  "offset": 37
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67906500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user fills the value \"123\" to the \"processo_numero_processo\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_numero_processo",
+                  "offset": 39
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63926800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user fills the value \"Guarda\" to the \"processo_natureza\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Guarda",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_natureza",
+                  "offset": 42
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73038400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user fills the value \"Jano x Jana\" to the \"processo_partes\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jano x Jana",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_partes",
+                  "offset": 47
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78358300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user fills the value \"12-12-2019\" to the \"processo_data_entrada\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12-12-2019",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_data_entrada",
+                  "offset": 46
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70851400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user fills the value \"Agendado\" to the \"processo_status\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Agendado",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_status",
+                  "offset": 44
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45398700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user selects the option \"Sim\" int the Arbitramento field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sim",
+                  "offset": 29
+                }
+              ],
+              "location": "ProcessosSteps.theUserSelectsTheOptionIntTheArbitramentoField(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45038300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user selects the option \"Não\" int the \"processo_urgente\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Não",
+                  "offset": 29
+                },
+                {
+                  "val": "processo_urgente",
+                  "offset": 43
+                }
+              ],
+              "location": "ProcessosSteps.theUserSelectsTheOptionIntTheField(String,String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 447822100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user clicks in the \"btn-save\" in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-save",
+                  "offset": 24
+                }
+              ],
+              "location": "ProcessosSteps.theUserClicksInTheInTheProcessoPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28151100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user should see the \"Processo foi criado com sucesso.\" message in the Mostrar Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Processo foi criado com sucesso.",
+                  "offset": 25
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheMessageInTheMostrarProcessoPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 312393900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the user is in the Agapito Software testing page",
+            "match": {
+              "location": "ProcessosSteps.thatTheUserIsInTheAgapitoSoftwareTestingPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44177100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the user clicks in the Processos menu option",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheProcessosMenuOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 947993500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user clicks in the button \"btn-show\" of the processo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-show",
+                  "offset": 31
+                }
+              ],
+              "location": "ProcessosSteps.theUserClicksInTheButtonOfTheProcesso(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2024348200,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "the user should see the value \"1\" message in the \"vara\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 31
+                },
+                {
+                  "val": "vara",
+                  "offset": 50
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheValueMessageInTheField(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2050243700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "the user should see the value \"123\" message in the \"numero\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 31
+                },
+                {
+                  "val": "numero",
+                  "offset": 52
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheValueMessageInTheField(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2063757800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the user should see the value \"Guarda\" message in the \"natureza\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Guarda",
+                  "offset": 31
+                },
+                {
+                  "val": "natureza",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheValueMessageInTheField(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2026009800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the user should see the value \"Jano x Jana\" message in the \"partes\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jano x Jana",
+                  "offset": 31
+                },
+                {
+                  "val": "partes",
+                  "offset": 60
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheValueMessageInTheField(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@runCrudProcessos"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 956686200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is in the Agapito Software testing page",
+            "match": {
+              "location": "ProcessosSteps.thatTheUserIsInTheAgapitoSoftwareTestingPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5307895000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.beforeScenario()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Add a new processo and see new processo from the main menu",
+        "description": "",
+        "id": "processos-page-crud;add-a-new-processo-and-see-new-processo-from-the-main-menu;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 615749800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 69790200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user clicks in the Processos menu option",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheProcessosMenuOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1619536700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user clicks in the Novo Processo button",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheNovoProcessoButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 277726000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user fills the value \"2\" to the \"processo_vara\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_vara",
+                  "offset": 37
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72143100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user fills the value \"312\" to the \"processo_numero_processo\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "312",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_numero_processo",
+                  "offset": 39
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75541500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user fills the value \"Danos Morais\" to the \"processo_natureza\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Danos Morais",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_natureza",
+                  "offset": 48
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73274000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user fills the value \"Jair x Luis\" to the \"processo_partes\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jair x Luis",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_partes",
+                  "offset": 47
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98288500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user fills the value \"11-11-2019\" to the \"processo_data_entrada\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11-11-2019",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_data_entrada",
+                  "offset": 46
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90930500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user fills the value \"Agendado\" to the \"processo_status\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Agendado",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_status",
+                  "offset": 44
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62494700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user selects the option \"Não\" int the Arbitramento field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Não",
+                  "offset": 29
+                }
+              ],
+              "location": "ProcessosSteps.theUserSelectsTheOptionIntTheArbitramentoField(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75899400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user selects the option \"Sim\" int the \"processo_urgente\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sim",
+                  "offset": 29
+                },
+                {
+                  "val": "processo_urgente",
+                  "offset": 43
+                }
+              ],
+              "location": "ProcessosSteps.theUserSelectsTheOptionIntTheField(String,String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 467335200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user clicks in the \"btn-save\" in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-save",
+                  "offset": 24
+                }
+              ],
+              "location": "ProcessosSteps.theUserClicksInTheInTheProcessoPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32039400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user should see the \"Processo foi criado com sucesso.\" message in the Mostrar Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Processo foi criado com sucesso.",
+                  "offset": 25
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheMessageInTheMostrarProcessoPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 265329200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the user is in the Agapito Software testing page",
+            "match": {
+              "location": "ProcessosSteps.thatTheUserIsInTheAgapitoSoftwareTestingPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63071200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the user clicks in the Processos menu option",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheProcessosMenuOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 812043400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user clicks in the button \"btn-show\" of the processo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-show",
+                  "offset": 31
+                }
+              ],
+              "location": "ProcessosSteps.theUserClicksInTheButtonOfTheProcesso(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2084694900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "the user should see the value \"2\" message in the \"vara\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 31
+                },
+                {
+                  "val": "vara",
+                  "offset": 50
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheValueMessageInTheField(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2027436000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "the user should see the value \"312\" message in the \"numero\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "312",
+                  "offset": 31
+                },
+                {
+                  "val": "numero",
+                  "offset": 52
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheValueMessageInTheField(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2056860700,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the user should see the value \"Danos Morais\" message in the \"natureza\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Danos Morais",
+                  "offset": 31
+                },
+                {
+                  "val": "natureza",
+                  "offset": 61
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheValueMessageInTheField(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2083619200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the user should see the value \"Jair x Luis\" message in the \"partes\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jair x Luis",
+                  "offset": 31
+                },
+                {
+                  "val": "partes",
+                  "offset": 60
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheValueMessageInTheField(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@runCrudProcessos"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1111890600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is in the Agapito Software testing page",
+            "match": {
+              "location": "ProcessosSteps.thatTheUserIsInTheAgapitoSoftwareTestingPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5351879700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.beforeScenario()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Add a new processo and see new processo from the main menu",
+        "description": "",
+        "id": "processos-page-crud;add-a-new-processo-and-see-new-processo-from-the-main-menu;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 628448200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 59243400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user clicks in the Processos menu option",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheProcessosMenuOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1695348500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user clicks in the Novo Processo button",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheNovoProcessoButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 276282300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user fills the value \"3\" to the \"processo_vara\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_vara",
+                  "offset": 37
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70150600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user fills the value \"666\" to the \"processo_numero_processo\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "666",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_numero_processo",
+                  "offset": 39
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73278600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user fills the value \"Trabalhista\" to the \"processo_natureza\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Trabalhista",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_natureza",
+                  "offset": 47
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73977400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user fills the value \"Jorge x JBC\" to the \"processo_partes\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jorge x JBC",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_partes",
+                  "offset": 47
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72580800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user fills the value \"10-10-2019\" to the \"processo_data_entrada\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10-10-2019",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_data_entrada",
+                  "offset": 46
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68479900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user fills the value \"Agendado\" to the \"processo_status\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Agendado",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_status",
+                  "offset": 44
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61910300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user selects the option \"Não\" int the Arbitramento field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Não",
+                  "offset": 29
+                }
+              ],
+              "location": "ProcessosSteps.theUserSelectsTheOptionIntTheArbitramentoField(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66001600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user selects the option \"Não\" int the \"processo_urgente\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Não",
+                  "offset": 29
+                },
+                {
+                  "val": "processo_urgente",
+                  "offset": 43
+                }
+              ],
+              "location": "ProcessosSteps.theUserSelectsTheOptionIntTheField(String,String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 468493700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user clicks in the \"btn-save\" in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-save",
+                  "offset": 24
+                }
+              ],
+              "location": "ProcessosSteps.theUserClicksInTheInTheProcessoPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31013100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user should see the \"Processo foi criado com sucesso.\" message in the Mostrar Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Processo foi criado com sucesso.",
+                  "offset": 25
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheMessageInTheMostrarProcessoPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 287781400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the user is in the Agapito Software testing page",
+            "match": {
+              "location": "ProcessosSteps.thatTheUserIsInTheAgapitoSoftwareTestingPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47069000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the user clicks in the Processos menu option",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheProcessosMenuOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 816552900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user clicks in the button \"btn-show\" of the processo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-show",
+                  "offset": 31
+                }
+              ],
+              "location": "ProcessosSteps.theUserClicksInTheButtonOfTheProcesso(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2025463000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "the user should see the value \"3\" message in the \"vara\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 31
+                },
+                {
+                  "val": "vara",
+                  "offset": 50
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheValueMessageInTheField(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2074697200,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "the user should see the value \"666\" message in the \"numero\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "666",
+                  "offset": 31
+                },
+                {
+                  "val": "numero",
+                  "offset": 52
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheValueMessageInTheField(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2075580300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the user should see the value \"Trabalhista\" message in the \"natureza\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Trabalhista",
+                  "offset": 31
+                },
+                {
+                  "val": "natureza",
+                  "offset": 60
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheValueMessageInTheField(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2074911900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the user should see the value \"Jorge x JBC\" message in the \"partes\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jorge x JBC",
+                  "offset": 31
+                },
+                {
+                  "val": "partes",
+                  "offset": 60
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheValueMessageInTheField(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@runCrudProcessos"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 889715300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is in the Agapito Software testing page",
+            "match": {
+              "location": "ProcessosSteps.thatTheUserIsInTheAgapitoSoftwareTestingPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5398279500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.beforeScenario()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Add a new processo and see new processo from the main menu",
+        "description": "",
+        "id": "processos-page-crud;add-a-new-processo-and-see-new-processo-from-the-main-menu;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 625587700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 73794100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user clicks in the Processos menu option",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheProcessosMenuOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1701106800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user clicks in the Novo Processo button",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheNovoProcessoButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 295697100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user fills the value \"4\" to the \"processo_vara\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_vara",
+                  "offset": 37
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68989100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user fills the value \"999\" to the \"processo_numero_processo\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "999",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_numero_processo",
+                  "offset": 39
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78970900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user fills the value \"Vale Tudo\" to the \"processo_natureza\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vale Tudo",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_natureza",
+                  "offset": 45
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75293500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user fills the value \"Silva x avlis\" to the \"processo_partes\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Silva x avlis",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_partes",
+                  "offset": 49
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72531300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user fills the value \"09-09-2019\" to the \"processo_data_entrada\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "09-09-2019",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_data_entrada",
+                  "offset": 46
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69137100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user fills the value \"Agendado\" to the \"processo_status\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Agendado",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_status",
+                  "offset": 44
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61857700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user selects the option \"Sim\" int the Arbitramento field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sim",
+                  "offset": 29
+                }
+              ],
+              "location": "ProcessosSteps.theUserSelectsTheOptionIntTheArbitramentoField(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69037900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user selects the option \"Sim\" int the \"processo_urgente\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sim",
+                  "offset": 29
+                },
+                {
+                  "val": "processo_urgente",
+                  "offset": 43
+                }
+              ],
+              "location": "ProcessosSteps.theUserSelectsTheOptionIntTheField(String,String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 510100400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user clicks in the \"btn-save\" in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-save",
+                  "offset": 24
+                }
+              ],
+              "location": "ProcessosSteps.theUserClicksInTheInTheProcessoPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25477100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user should see the \"Processo foi criado com sucesso.\" message in the Mostrar Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Processo foi criado com sucesso.",
+                  "offset": 25
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheMessageInTheMostrarProcessoPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273129300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the user is in the Agapito Software testing page",
+            "match": {
+              "location": "ProcessosSteps.thatTheUserIsInTheAgapitoSoftwareTestingPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63626400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the user clicks in the Processos menu option",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheProcessosMenuOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 843886200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user clicks in the button \"btn-show\" of the processo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-show",
+                  "offset": 31
+                }
+              ],
+              "location": "ProcessosSteps.theUserClicksInTheButtonOfTheProcesso(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2024484800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "the user should see the value \"4\" message in the \"vara\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 31
+                },
+                {
+                  "val": "vara",
+                  "offset": 50
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheValueMessageInTheField(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2022457700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "the user should see the value \"999\" message in the \"numero\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "999",
+                  "offset": 31
+                },
+                {
+                  "val": "numero",
+                  "offset": 52
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheValueMessageInTheField(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2060224100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the user should see the value \"Vale Tudo\" message in the \"natureza\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vale Tudo",
+                  "offset": 31
+                },
+                {
+                  "val": "natureza",
+                  "offset": 58
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheValueMessageInTheField(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2044699200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the user should see the value \"Silva x avlis\" message in the \"partes\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Silva x avlis",
+                  "offset": 31
+                },
+                {
+                  "val": "partes",
+                  "offset": 62
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheValueMessageInTheField(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@runCrudProcessos"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 895727800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is in the Agapito Software testing page",
+            "match": {
+              "location": "ProcessosSteps.thatTheUserIsInTheAgapitoSoftwareTestingPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5358090800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.beforeScenario()"
+            }
+          }
+        ],
+        "line": 72,
+        "name": "Add a new processo and update processo from the main menu",
+        "description": "",
+        "id": "processos-page-crud;add-a-new-processo-and-update-processo-from-the-main-menu;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 659579900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 61921200,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "the user clicks in the Processos menu option",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheProcessosMenuOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1736816101,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "the user clicks in the Novo Processo button",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheNovoProcessoButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 286347501,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the user fills the value \"1\" to the \"processo_vara\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_vara",
+                  "offset": 37
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65254900,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "the user fills the value \"123\" to the \"processo_numero_processo\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_numero_processo",
+                  "offset": 39
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65177300,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "the user fills the value \"Guarda\" to the \"processo_natureza\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Guarda",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_natureza",
+                  "offset": 42
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72579099,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "the user fills the value \"Jano x Jana\" to the \"processo_partes\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jano x Jana",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_partes",
+                  "offset": 47
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71917701,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "the user fills the value \"12-12-2019\" to the \"processo_data_entrada\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12-12-2019",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_data_entrada",
+                  "offset": 46
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68408100,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "the user fills the value \"Agendado\" to the \"processo_status\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Agendado",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_status",
+                  "offset": 44
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43232000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "the user selects the option \"Sim\" int the Arbitramento field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sim",
+                  "offset": 29
+                }
+              ],
+              "location": "ProcessosSteps.theUserSelectsTheOptionIntTheArbitramentoField(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45531300,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "the user selects the option \"Não\" int the \"processo_urgente\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Não",
+                  "offset": 29
+                },
+                {
+                  "val": "processo_urgente",
+                  "offset": 43
+                }
+              ],
+              "location": "ProcessosSteps.theUserSelectsTheOptionIntTheField(String,String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 537345800,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "the user clicks in the \"btn-save\" in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-save",
+                  "offset": 24
+                }
+              ],
+              "location": "ProcessosSteps.theUserClicksInTheInTheProcessoPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27530300,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "the user should see the \"Processo foi criado com sucesso.\" message in the Mostrar Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Processo foi criado com sucesso.",
+                  "offset": 25
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheMessageInTheMostrarProcessoPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 306059700,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "the user is in the Agapito Software testing page",
+            "match": {
+              "location": "ProcessosSteps.thatTheUserIsInTheAgapitoSoftwareTestingPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63467301,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "the user clicks in the Processos menu option",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheProcessosMenuOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 851585200,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "the user clicks in the button \"btn-edit\" of the processo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-edit",
+                  "offset": 31
+                }
+              ],
+              "location": "ProcessosSteps.theUserClicksInTheButtonOfTheProcesso(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 300702599,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "the user fills the value \"11\" to the \"processo_vara\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_vara",
+                  "offset": 38
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 467411400,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "the user clicks in the \"btn-save\" in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-save",
+                  "offset": 24
+                }
+              ],
+              "location": "ProcessosSteps.theUserClicksInTheInTheProcessoPage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24849699,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "the user should see the \"Processo atualizado com sucesso.\" message in the Mostrar Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Processo atualizado com sucesso.",
+                  "offset": 25
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheMessageInTheMostrarProcessoPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2038804801,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "the user should see the value \"11\" message in the \"vara\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11",
+                  "offset": 31
+                },
+                {
+                  "val": "vara",
+                  "offset": 51
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheValueMessageInTheField(String,String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@runCrudProcessos"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 914410600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is in the Agapito Software testing page",
+            "match": {
+              "location": "ProcessosSteps.thatTheUserIsInTheAgapitoSoftwareTestingPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5398824600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.beforeScenario()"
+            }
+          }
+        ],
+        "line": 73,
+        "name": "Add a new processo and update processo from the main menu",
+        "description": "",
+        "id": "processos-page-crud;add-a-new-processo-and-update-processo-from-the-main-menu;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 640470999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 52193900,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "the user clicks in the Processos menu option",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheProcessosMenuOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1718733000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "the user clicks in the Novo Processo button",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheNovoProcessoButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 313253600,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the user fills the value \"2\" to the \"processo_vara\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_vara",
+                  "offset": 37
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61932400,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "the user fills the value \"312\" to the \"processo_numero_processo\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "312",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_numero_processo",
+                  "offset": 39
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73884001,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "the user fills the value \"Danos Morais\" to the \"processo_natureza\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Danos Morais",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_natureza",
+                  "offset": 48
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73156200,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "the user fills the value \"Jair x Luis\" to the \"processo_partes\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jair x Luis",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_partes",
+                  "offset": 47
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71673000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "the user fills the value \"11-11-2019\" to the \"processo_data_entrada\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11-11-2019",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_data_entrada",
+                  "offset": 46
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68163701,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "the user fills the value \"Agendado\" to the \"processo_status\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Agendado",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_status",
+                  "offset": 44
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72114699,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "the user selects the option \"Não\" int the Arbitramento field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Não",
+                  "offset": 29
+                }
+              ],
+              "location": "ProcessosSteps.theUserSelectsTheOptionIntTheArbitramentoField(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107426501,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "the user selects the option \"Sim\" int the \"processo_urgente\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sim",
+                  "offset": 29
+                },
+                {
+                  "val": "processo_urgente",
+                  "offset": 43
+                }
+              ],
+              "location": "ProcessosSteps.theUserSelectsTheOptionIntTheField(String,String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 548350500,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "the user clicks in the \"btn-save\" in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-save",
+                  "offset": 24
+                }
+              ],
+              "location": "ProcessosSteps.theUserClicksInTheInTheProcessoPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30829901,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "the user should see the \"Processo foi criado com sucesso.\" message in the Mostrar Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Processo foi criado com sucesso.",
+                  "offset": 25
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheMessageInTheMostrarProcessoPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 329182401,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "the user is in the Agapito Software testing page",
+            "match": {
+              "location": "ProcessosSteps.thatTheUserIsInTheAgapitoSoftwareTestingPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77230500,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "the user clicks in the Processos menu option",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheProcessosMenuOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 956774100,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "the user clicks in the button \"btn-edit\" of the processo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-edit",
+                  "offset": 31
+                }
+              ],
+              "location": "ProcessosSteps.theUserClicksInTheButtonOfTheProcesso(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 289142301,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "the user fills the value \"12\" to the \"processo_vara\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_vara",
+                  "offset": 38
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 549585700,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "the user clicks in the \"btn-save\" in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-save",
+                  "offset": 24
+                }
+              ],
+              "location": "ProcessosSteps.theUserClicksInTheInTheProcessoPage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26822799,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "the user should see the \"Processo atualizado com sucesso.\" message in the Mostrar Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Processo atualizado com sucesso.",
+                  "offset": 25
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheMessageInTheMostrarProcessoPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2065596701,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "the user should see the value \"12\" message in the \"vara\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 31
+                },
+                {
+                  "val": "vara",
+                  "offset": 51
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheValueMessageInTheField(String,String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@runCrudProcessos"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 995998900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is in the Agapito Software testing page",
+            "match": {
+              "location": "ProcessosSteps.thatTheUserIsInTheAgapitoSoftwareTestingPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5352397801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.beforeScenario()"
+            }
+          }
+        ],
+        "line": 96,
+        "name": "Add a new processo and delete processo from the main menu",
+        "description": "",
+        "id": "processos-page-crud;add-a-new-processo-and-delete-processo-from-the-main-menu;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 633459600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 81189900,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "the user clicks in the Processos menu option",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheProcessosMenuOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1783807400,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "the user clicks in the Novo Processo button",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheNovoProcessoButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 305852800,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "the user fills the value \"1\" to the \"processo_vara\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_vara",
+                  "offset": 37
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64383301,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "the user fills the value \"123\" to the \"processo_numero_processo\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_numero_processo",
+                  "offset": 39
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71480000,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "the user fills the value \"Guarda\" to the \"processo_natureza\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Guarda",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_natureza",
+                  "offset": 42
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73420301,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "the user fills the value \"Arlo x Arla\" to the \"processo_partes\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Arlo x Arla",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_partes",
+                  "offset": 47
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72329800,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "the user fills the value \"12-12-2019\" to the \"processo_data_entrada\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12-12-2019",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_data_entrada",
+                  "offset": 46
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65377799,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "the user fills the value \"Agendado\" to the \"processo_status\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Agendado",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_status",
+                  "offset": 44
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46909601,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "the user selects the option \"Sim\" int the Arbitramento field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sim",
+                  "offset": 29
+                }
+              ],
+              "location": "ProcessosSteps.theUserSelectsTheOptionIntTheArbitramentoField(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45321200,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "the user selects the option \"Não\" int the \"processo_urgente\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Não",
+                  "offset": 29
+                },
+                {
+                  "val": "processo_urgente",
+                  "offset": 43
+                }
+              ],
+              "location": "ProcessosSteps.theUserSelectsTheOptionIntTheField(String,String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 515606199,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "the user clicks in the \"btn-save\" in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-save",
+                  "offset": 24
+                }
+              ],
+              "location": "ProcessosSteps.theUserClicksInTheInTheProcessoPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42590900,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "the user should see the \"Processo foi criado com sucesso.\" message in the Mostrar Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Processo foi criado com sucesso.",
+                  "offset": 25
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheMessageInTheMostrarProcessoPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 282785399,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "the user is in the Agapito Software testing page",
+            "match": {
+              "location": "ProcessosSteps.thatTheUserIsInTheAgapitoSoftwareTestingPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56410700,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "the user clicks in the Processos menu option",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheProcessosMenuOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 868169300,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "the user clicks in the button \"btn-delete\" of the processo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-delete",
+                  "offset": 31
+                }
+              ],
+              "location": "ProcessosSteps.theUserClicksInTheButtonOfTheProcesso(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14029389399,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "the user clicks in the OK option of the confirmation window",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheOKOptionOfTheConfirmationWindow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2050995999,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "the user should not see the value processo in the processos page",
+            "match": {
+              "location": "ProcessosSteps.theUserShouldNotSeeTheValueProcessoInTheProcessosPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@runCrudProcessos"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 839266500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is in the Agapito Software testing page",
+            "match": {
+              "location": "ProcessosSteps.thatTheUserIsInTheAgapitoSoftwareTestingPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5398266299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.beforeScenario()"
+            }
+          }
+        ],
+        "line": 97,
+        "name": "Add a new processo and delete processo from the main menu",
+        "description": "",
+        "id": "processos-page-crud;add-a-new-processo-and-delete-processo-from-the-main-menu;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 626172401,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 69405700,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "the user clicks in the Processos menu option",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheProcessosMenuOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1741245900,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "the user clicks in the Novo Processo button",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheNovoProcessoButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 287757401,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "the user fills the value \"2\" to the \"processo_vara\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_vara",
+                  "offset": 37
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65737900,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "the user fills the value \"312\" to the \"processo_numero_processo\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "312",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_numero_processo",
+                  "offset": 39
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74882300,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "the user fills the value \"Danos Morais\" to the \"processo_natureza\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Danos Morais",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_natureza",
+                  "offset": 48
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75914400,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "the user fills the value \"Lala x Lolo\" to the \"processo_partes\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lala x Lolo",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_partes",
+                  "offset": 47
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71796199,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "the user fills the value \"11-11-2019\" to the \"processo_data_entrada\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11-11-2019",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_data_entrada",
+                  "offset": 46
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67662100,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "the user fills the value \"Agendado\" to the \"processo_status\" field in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Agendado",
+                  "offset": 26
+                },
+                {
+                  "val": "processo_status",
+                  "offset": 44
+                }
+              ],
+              "location": "ProcessosSteps.theUserFillsTheValueToTheFieldInTheProcessoPage(String,String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41792799,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "the user selects the option \"Não\" int the Arbitramento field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Não",
+                  "offset": 29
+                }
+              ],
+              "location": "ProcessosSteps.theUserSelectsTheOptionIntTheArbitramentoField(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66899001,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "the user selects the option \"Sim\" int the \"processo_urgente\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sim",
+                  "offset": 29
+                },
+                {
+                  "val": "processo_urgente",
+                  "offset": 43
+                }
+              ],
+              "location": "ProcessosSteps.theUserSelectsTheOptionIntTheField(String,String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 540048901,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "the user clicks in the \"btn-save\" in the Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-save",
+                  "offset": 24
+                }
+              ],
+              "location": "ProcessosSteps.theUserClicksInTheInTheProcessoPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27503601,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "the user should see the \"Processo foi criado com sucesso.\" message in the Mostrar Processo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Processo foi criado com sucesso.",
+                  "offset": 25
+                }
+              ],
+              "location": "ProcessosSteps.theUserShouldSeeTheMessageInTheMostrarProcessoPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 310894999,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "the user is in the Agapito Software testing page",
+            "match": {
+              "location": "ProcessosSteps.thatTheUserIsInTheAgapitoSoftwareTestingPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53772200,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "the user clicks in the Processos menu option",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheProcessosMenuOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 873089699,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "the user clicks in the button \"btn-delete\" of the processo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-delete",
+                  "offset": 31
+                }
+              ],
+              "location": "ProcessosSteps.theUserClicksInTheButtonOfTheProcesso(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14027793699,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "the user clicks in the OK option of the confirmation window",
+            "match": {
+              "location": "ProcessosSteps.theUserClicksInTheOKOptionOfTheConfirmationWindow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2041902200,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "the user should not see the value processo in the processos page",
+            "match": {
+              "location": "ProcessosSteps.theUserShouldNotSeeTheValueProcessoInTheProcessosPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@runCrudProcessos"
+          }
+        ]
+      }
+    ],
+    "name": "Processos page CRUD",
+    "description": "",
+    "id": "processos-page-crud",
+    "keyword": "Feature",
+    "uri": "ProcessoPageCRUD.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@runCrudProcessos"
+      }
+    ]
+  }
+]
